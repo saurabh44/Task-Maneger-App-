@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/efb53451af.js" crossorigin="anonymous"></script>
+    <title>Task Maneger App</title>
+</head>
+<body>
+    <h1 class="head">Task Maneger App</h1>
+
+    <div class="main">
+    <form action="First" id="first_h" ></form>
+    <div class="add">
+        <input type="text" class="todo_app" id="todo_app" placeholder="Add New Task..." ><br/>
+        <button id="todo_submit" class="btn" data-target="modal" >Add Task</button>
+    </div></br>
+
+    <div class="todo-start">
+
+        <div class="status" id="no_status">
+            <h1>Open</h1>
+            <div class="container" ></div>
+          </div>
+          <div class="status">
+            <h1>In Progress</h1>
+            <div class="container" ></div>
+          </div>
+          <div class="status" id="review">
+            <h1>In Review</h1>
+            <div class="container" ></div>
+          </div>
+          <div class="status">
+            <h1>Done</h1>
+            <div class="container" ></div>
+          </div>
+    </div>
+    <div >
+      <h1>@created by Saurabh singh </h1>
+     <div class="icon">
+      <a href="https://www.linkedin.com/in/saurabh-singh-71b419160/">
+        <i class="fa-brands fa-linkedin fa-2xl"></i>
+      </a>
+
+        <a href="https://github.com/saurabh44">
+          <i class="fa-brands fa-github fa-2xl"></i>
+        </a>  
+     </div>
+  </div>
+  </div>
+   <div id="overlay"></div>
+
+  
+<script src="app.js"></script>
+</body>
+</html>
